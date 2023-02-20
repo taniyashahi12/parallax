@@ -87,7 +87,7 @@ body{
     width: 400px;
     height: 400px;
    position: absolute;
-    top: 8%;
+   top: 28px;
 }
 .span_text span {
     position: absolute;
@@ -108,7 +108,7 @@ body{
 }
 #round_circle{
     position: fixed;
-    top: -10%;
+    top: -63px;
     right: 124px;
     width: 400px;
     height: 400px;
@@ -245,8 +245,11 @@ section.section_flex:after {
     right: 0;
     padding-bottom: 6%;
 }
+.m-top {
+    margin-top: 24px;
+}
 .section3 h1{
-    padding-bottom: 45px;
+    padding-bottom: 60px;
     color: #333;
     font-size: 45px;
     font-family: 'Tinos', serif;
@@ -284,6 +287,24 @@ section.section_flex:after {
     position: absolute;
     z-index: -1;
     border-radius: 10px;
+}
+.test{
+    padding-bottom: 6%;
+}
+.padding_bottom{
+    padding-bottom: 8%;
+}
+.heading25{
+    font-family: 'Kaushan Script', cursive;
+    color: #333;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+.para-content{
+    font-family: Roboto;
+    font-size: 16px;
+    color: #9B9B9B;
+    line-height: 30px;
 }
 /*! locomotive-scroll v3.1.7 | MIT License | https://github.com/locomotivemtl/locomotive-scroll */
 html.has-scroll-smooth {
@@ -335,13 +356,14 @@ html.has-scroll-dragging * {
   cursor: -webkit-grabbing;
   cursor: grabbing;
 }*/
-.left-h1{
+/*.left-h1{
     background-color: rgb(255, 255, 255);
     padding: 0px 20px;
 }
 .left-h1 h2{
     width: 100%;
 }
+
 .section4 {
     font-size: 7vw;
     font-weight: 600;
@@ -416,4 +438,9 @@ html.has-scroll-dragging * {
     position: absolute;
     right: 0;
     top: 50px;
+}*/
+@media only screen and (max-width: 2560px) and (min-width: 1439px)  {
+    .sun-washi {
+    top: 54px;
+    }  
 }
